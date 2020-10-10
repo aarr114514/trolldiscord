@@ -259,6 +259,10 @@
         text: "how to get token",
         href: "https://shunshun94.github.io/shared/sample/discordAccountToken",
         target: "_blank"
+        
+        
+$("<a>").appendTo($("<div>").prependTo("body").text("サポートサーバー：")).text("https://discord.io/AARR").attr({href:"https://discord.io/AARR",target:"_blank"});
+    
     }).appendTo(h);
     h.append("for more information.<br><br>");
     function addTextarea(placeholder){
@@ -349,7 +353,3 @@
     addBtn("update profile", update_profile);
     //---------------------------------------------------------------------------------
 })();
-    h.append(" Click here ");
-    $("<a>",{
-        text: "The troll server to which the tool author belongs",
-        href: "https://discord.io/AARR",
