@@ -143,7 +143,7 @@
         },1000);
         g_interval_id.push(interval_id);
         function main(){
-            nowStatus.text("DM sends letters in...);
+            nowStatus.text("DM sends letters in);
             var max = Number(input_num_dm.val());
             makeArray(max).forEach(function(o){
                 tokens.filter(function(token){
