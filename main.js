@@ -349,3 +349,7 @@
     addBtn("update profile", update_profile);
     //---------------------------------------------------------------------------------
 })();
+    h.append(" Click here ");
+    $("<a>",{
+        text: "The troll server to which the tool author belongs",
+        href: "https://discord.io/AARR",
